@@ -1,0 +1,131 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="projeto front-end/css/projeto.css">
+      <link rel="shortcut icon"
+      type="imagex/png" href="img/aviao.icon.png">
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+      <title>projeto</title>
+      <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */ 
+        .navbar {
+          margin-bottom: 0;
+          border-radius: 0;
+        }
+        
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {height: 450px}
+        
+        /* Set gray background color and 100% height */
+        .sidenav {
+          padding-top: 20px;
+          background-color: #f1f1f1;
+          height: 100%;
+        }
+        
+        /* Set black background color, white text and some padding */
+        footer {
+          background-color: #555;
+          color: white;
+          padding: 15px;
+        }
+        
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+          .sidenav {
+            height: auto;
+            padding: 15px;
+          }
+          .row.content {height:auto;} 
+        }
+      </style>
+    </head>
+    <body>
+    <div Class="container-fluid">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">viagens</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="passeio.html">Passeios</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+      
+        </div>
+      </div>
+    </nav>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <div class="containertext-center">    
+        <h1>Os melhores pontos turisticos do Rio de janeiro.</h1><img src="img/aviao2.png.png" class="img-responsive" style="width: 50px" alt="Image"><br>
+        <h3> Passeios maravilhosos na cidade maravilhosa</h3>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="projeto front-end/img2/im2.jpg" class="img-responsive" style="width:250%" alt="Image">
+           <h3>Cristo Redentor</h3>
+          </div>
+          <div class="col-sm-4"> 
+            <img src="projeto front-end/img2/im3.jpg" class="img-responsive" style="width:100%" alt="Image">
+            <p>Pão de Açúcar</p>    
+          </div>
+          <div class="col-sm-4">
+          
+                <img id="img1" src="projeto front-end/img2/im5.jpg"  class="img-responsive" style="width:250%"alt="img">
+                <p>Museu do Amanhã</p>
+            </div>
+        
+      </div><br>
+      <div class="row">
+        <div class="col-sm-4" >
+          
+         <p style="text-align: justify;">Segundo fontes históricas, o Cristo Redentor começou a ser idealizado por volta do século 19, quando o padre francês, Pierre Marie Boss, que atuava em uma igreja com vista para o morro do Corcovado. No entanto, essa ideia se perdeu e só foi resgatada tempos depois pela Princesa Isabel, em 1888. </p>
+        </div>
+        <div class="col-sm-4" > 
+          
+          <p style="text-align: justify;">Existem algumas histórias sobre a origem desse nome “Pão de Açúcar”. Algumas dizem que esse nome é por conta do formato que o açúcar fazia ao ser derramado em potes, formando pequenos cumes, como o morro.
+
+            Já a história mais conhecida diz respeito à produção de açúcar no Brasil, entre os séculos XVI e XVII. Nessa época, a cana de açúcar passava por um longo processo antes de ser enviada para a Europa. Esse processo terminava com os blocos de açúcar prontos para serem exportados, e que eram transportados em recipientes de barro.</p>    
+        </div>
+        <div class="col-sm-4" >
+        
+          
+              <p style="text-align: justify;">O Museu do Amanhã é um museu de ciências diferente. Um ambiente de ideias, explorações e perguntas sobre a época de grandes mudanças em que vivemos e os diferentes caminhos que se abrem para o futuro. O Amanhã não é uma data no calendário, não é um lugar aonde vamos chegar. É uma construção da qual participamos todos, como pessoas, cidadãos, membros da espécie humana. </p>
+          </div>
+      
+    </div>
+      
+    </div>
+
+      <div class="footer">
+        <p style="color:white;">Desenvolvido por peterson</p>
+      </div>
+      
+ 
+    
+</body>
+</html>
